@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+body {
+     font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    margin-top:1rem;
+    margin-bottom:.5rem;
+    font-size: 1rem;
+}
+
+h1, h4 {
+    margin-bottom:.5rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:500;
+    line-height:1.2;
+    color:inherit;
+}
+ h2 span {
+  color: #7a7474;
+}
+h4 {
+    font-size: 1.4rem;
+}
+p {
+    font-size: 1.2rem;
+}
+
+#acerca p {
+  font-size: 1.1rem;
+}
+.card {
+    margin: 2rem;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: #4f4f4f;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+nav{  
+  margin-top: 0;
+}
+.nav-item {
+ 
+    font-size: 1rem; 
+}
+.text-center {
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-6,.col-md-12,.col-sm-12,.col-xl-6{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+.col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:768px){
+.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:992px){
+.col-lg-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:1200px){
+.col-xl-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+.p-0{padding:0!important;}
+.p-5{padding:3rem!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+}
+ /*CONTACTO*/
+ 
+.container {  
+    max-width: 640px;  
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+
+  form {
+    border: 1px solid rgb(191, 203, 214);
+    padding: 10px;
+  }
+  
+  form p{
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin: 1.2rem 0 0 0 ;
+  }
+  
+  legend{
+    font-size: 1.4rem;
+    color: #333333;
+  }
+  
+  label{
+    font-weight: 500; 
+    display: block;
+  }
+  
+  input[type="text"],
+  textarea, 
+  select {
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 1rem;
+    border: none;
+  }
+  
+  select{
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  textarea {
+    height: 10rem;
+  }
+  
+  legend {
+    font-size: 1.3rem;
+  }
+  input [type=radio] {
+    width: auto;
+    margin: 0;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  
+  }
+  .submit-button{
+    color: white;
+    background-color: gray;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+   }
+
+ .icon-container {
+    margin: 1rem;
+    position: relative;     
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+ .copyright{
+    font-size: 0.8rem;
+    text-align: center;
+  }
